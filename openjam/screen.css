@@ -1,1 +1,92 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+body {
+    background-color: #82ddb5;
+    background-image: url(img/illustration.gif), url(img/texture.jpg);
+    background-position: center 280px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800px, auto;
+    margin: 0;
+    font-family: 'Quicksand';
+}
+
+#nav {
+    background-color: #6B9;
+    border-bottom: 2px dashed #487;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#logo {
+    max-width: 360px;
+}
+
+#description, #date {
+    max-width: 220px;
+}
+
+.register_btn {
+    background-color: #E43;
+    border: 2px dashed #A43;
+    border-radius: 2em;
+    color: #FFF;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+
+#what {
+    background-color: rgba(199, 238, 221, 0.9);
+    color: #347788;
+    padding: 20px 300px;
+    margin-top: 350px;
+    line-height: 1.6em;
+}
+
+#what h1, h2 {
+    text-align: center;
+}
+
+#what h1 + p {
+    font-size: 20px;
+}
+
+#sponsor_logos img {
+    max-width: 220px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+#sponsor_logos {
+    text-align: center;
+}
+
+#why{
+    background-color: #b6ead3;
+    color: #347788;
+    padding: 20px 300px;
+    line-height: 1.6em;
+}
+
+#why h1 {
+    text-align: center;
+}
+
+#where {
+    background-color: #fedbf3;
+    background-image: url(img/map.gif);
+    padding: 20px 300px;
+    background-repeat: no-repeat;
+}
+
+
+
