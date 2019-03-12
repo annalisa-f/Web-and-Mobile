@@ -1,0 +1,25 @@
+.teaa {
+    font-size: 30px;
+    color: #e600e6;
+    font-style: italic;
+}
+
+#box1 {
+    background-color: aquamarine;
+    border: 10px solid violet;
+    height: 100px;
+    width: 200px;
+    margin-left: 60px;
+    padding-top: 100px;
+}
+
+#box2 {
+    background-color: darkturquoise;
+    margin-left: 100px;
+    border-top: 5px dashed darkviolet;
+    height: 200px;
+    width: 50px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
