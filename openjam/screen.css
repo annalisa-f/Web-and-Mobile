@@ -52,8 +52,15 @@ body {
     line-height: 1.6em;
 }
 
-#what h1, h2 {
+#what h1{
     text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#what h2 {
+    text-align: center;
+    padding-top: 20px;
 }
 
 #what h1 + p {
@@ -63,7 +70,7 @@ body {
 #sponsor_logos img {
     max-width: 220px;
     margin-left: 10px;
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 #sponsor_logos {
@@ -79,14 +86,93 @@ body {
 
 #why h1 {
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #where {
     background-color: #fedbf3;
     background-image: url(img/map.gif);
     padding: 20px 300px;
+    color: #BB4689;
     background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    line-height: 1.6em;
+    min-height: 525px;
 }
 
+#where h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+#where p {
+    text-align: right;
+    font-weight: bold;
+}
 
+#when {
+    background-color: #439998;
+    background-image: url(img/wires.png);
+    background-position: center bottom;
+    background-repeat: repeat;
+    background-size: 700px;
+    color: white;
+    line-height: 1.6em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#when h3 {
+    border-top: 2px dashed white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#when h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#when h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#when ul {
+     padding-left: 300px;
+     padding-right: 300px;
+}
+
+#who {
+    background-color: white;
+    padding: 20px 300px;
+    color: #347788;
+    line-height: 1.6em;
+}
+#who h1 + p {
+    font-size: 20px;
+}
+
+#who h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer {
+    background-image: url(img/texture.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-size: auto;
+    padding: 20px 0px 40px 0px;
+    text-align: center;
+}
+#footer img {
+    max-width: 50px;
+    margin-left: 10px;
+    margin-right: 10px
+}
