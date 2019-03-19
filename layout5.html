@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Layout 5 </title>
+        <style>
+            
+            div {
+                outline: 1px solid black;
+            }
+            
+            #container {
+                width: 800px;
+                margin: auto;
+            }
+            
+            #blue {
+                background-color: blue;
+                height: 200px;
+                display: grid;
+                grid-template-columns: auto 25%;
+            }
+            
+            #bigred {
+                background-color: red;
+                height: 400px;
+                display: grid;
+                grid-template-columns: 30% auto;
+            }
+            
+            #rightred {
+                display: grid;
+                grid-template-columns: 30% auto;
+            }
+            
+            #leftred {
+                 background-color: red;   
+            }
+            
+            #green {
+                background-color: green;
+                height: 200px;
+            }
+            
+            #papayellow {
+                background-color: yellow;
+                margin: 20px;
+            }
+            
+            #babyyellow {
+                background-color: yellow;
+                margin: 20px;
+                height: 200px;
+            }
+            
+            #topyellow {
+                background-color: yellow; 
+                grid-column: 2/3;
+                margin: 20px;
+            }
+            
+            
+        </style>
+    </head>
+
+    <body>
+        
+        <div id="container">
+            <div id="blue">
+                <div id="topyellow"></div>
+            </div>
+            <div id="bigred">
+                <div id="leftred"></div>
+                <div id="rightred">
+                    <div id="babyyellow"></div>
+                    <div id="papayellow"></div>
+                </div>
+            </div>
+            <div id="green"></div>  
+        </div>
+        
+    </body>
+</html>
