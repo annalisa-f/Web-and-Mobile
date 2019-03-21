@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Layout 7 </title>
+        <style>
+            
+            div {
+                outline: 1px solid black;
+            }
+            
+            #container {
+                width: 800px;
+                margin: auto;
+            }
+            
+            #blue1 {
+                background-color: blue;
+                height: 100px;
+                display: grid;
+                grid-template-columns: 30% auto;
+            }
+            
+            #thiny1 {
+                background-color: yellow;
+                margin: 20px;
+            }
+            
+            #thiny2 {
+                background-color: yellow;
+                grid-column: 2/3;
+                margin: 20px;
+            }
+            
+            #green1 {
+                 background-color: green; 
+                 height: 500px;
+            }
+            
+            #red1 {
+                background-color: red;
+                height: 400px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            
+            #blue2 {
+                background-color: blue;
+                height: 600px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                padding: 10px;
+            }
+            
+            #fully2 {
+                background-color: yellow;
+                margin: 20px;
+                grid-column: 1/5;
+                margin: 5px 5px 10px 5px;
+            }
+            
+            #green2 {
+                background-color: green; 
+                height: 500px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+            }
+            
+            #red2 {
+                background-color: red;
+                height: 500px;
+                display: grid;
+                grid-template-columns: 75% 25%;
+                grid-template-rows: 20% 80%;
+            }
+            
+            #fully3 {
+                background-color: yellow; 
+                grid-column: 1/3;
+                grid-row: auto;
+                margin: 20px;
+            }
+            
+            #biggy {
+                background-color: yellow; 
+                margin: 20px;
+            }
+            
+            #boxy3 {
+                background-color: yellow;   
+                grid-column: 2/3;
+                margin: 20px;
+                height: 150px;
+            }
+            
+            #blue3 {
+                 background-color: blue;   
+                 height: 100px;
+            }
+            
+            .fully1 {
+                background-color: yellow;
+                grid-column: 1/4;
+                margin: 20px;
+            }
+            
+            .boxy1 {
+                background-color: yellow; 
+                margin: 20px;
+            }
+            
+            .boxy2 {
+                background-color: yellow; 
+                margin: 7px;
+            }
+            
+            .tallyell {
+                background-color: yellow; 
+                grid-row: 2 / span 3;
+                margin: 20px;
+            }
+            
+            
+            
+        </style>
+    </head>
+
+    <body>
+        
+        <div id="container">
+            <div id="blue1">
+                <div id="thiny1"></div>
+                <div id="thiny2"></div>
+            </div>
+            <div id="green1"></div>
+            <div id="red1">
+                <div class="fully1"></div>
+                <div class="boxy1"></div>
+                <div class="boxy1"></div>
+                <div class="boxy1"></div>
+            </div>
+            <div id="blue2">
+                <div id="fully2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+                <div class="boxy2"></div>
+            </div> 
+            <div id="green2">
+                <div class="fully1"></div>
+                <div class="tallyell"></div>
+                <div class="tallyell"></div>
+                <div class="tallyell"></div>
+            </div> 
+            <div id="red2">
+                <div id="fully3"></div>
+                <div id="biggy"></div>
+                <div id="boxy3"></div>
+            </div> 
+            <div id="blue3"></div> 
+        </div>
+        
+    </body>
+</html>
