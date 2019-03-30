@@ -59,6 +59,155 @@ body {
 #services {
     background-color: #f2f2f2;
     height: 495px;
+    padding-bottom: 70px;
+}
+
+#servicebox {
+    max-width: 950px;
+    margin: auto;
+    color: #666d89;
+    padding: 65px 40px;
+}
+
+.keypoints {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.onepoint {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.specificservices {
+    grid-column: 2/3;
+}
+
+.specificservices p {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+
+.sketch img {
+    max-width: 90px;
+    width: 100%;
+}
+
+#portfolio {
+    background-color: #2d303a;
+    color: #666d89;
+    height: 870px;
+}
+
+#portfoliobox {
+    max-width: 950px;
+    padding: 65px 40px;
+    margin: auto;
+}
+
+.categories {
+    margin-bottom: 25px;
+}
+
+.spancate {
+    border: solid 1px #666d89;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 4px;
+    font-size: 0.9rem;
+}
+
+.white {
+    border: solid 1px #f2f2f2;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 4px;
+    font-size: 0.9rem;
+    color: #f2f2f2;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.artwork {
+    margin: 10px;
+}
+
+.artwork img {
+    max-width: 220px;
+    width: 100%;
+}
+
+#aboutus {
+    height: 735px;
+    background-color: #f2f2f2;
+    color: #666d89;
+}
+
+#aboutusbox {
+    max-width: 950px;
+    padding: 65px 40px;
+    margin: auto;
+}
+
+.people {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+
+.person {
+    width: 300px;
+}
+
+.name {
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 1.3rem;
+}
+
+.bio {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    margin-bottom: 20px;
+}
+
+#footer {
+    height: 75px;
+    background-color: #2d303a;
+    color: #666d89;
+}
+
+#footerbox {
+    max-width: 950px;
+    padding: 0 40px;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.copyright {
+    margin: 30px 0;
+}
+
+.socialmedia {
+    text-align: right;
+    margin: 20px 0;
 }
 
 @media screen and (max-width: 480px) {
