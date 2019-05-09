@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Bootstrap</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+        <style>
+            * { outline: #CCC solid 1px; }  
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-sm-4"> 4 </div>
+                <div class="col-sm-4"> 4 </div>
+                <div class="col-sm-4"> 4 </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12 col-sm-8"> 4 </div>
+                <div class="col-6 col-sm-2"> 4 </div>
+                <div class="col-6 col-sm-2"> 4 </div>
+            </div>
+          
+        </div>
+        
+        <h1>Fontawesome</h1>
+        <i class="fas fa-envelope"></i> : email@gmail.com
+        
+        <h1>Collapsibles</h1>
+        How many days are there in a year?
+        
+        <button data-toggle="collapse" data-target="#answer"> Show Answer </button>
+        
+        <div id="answer" class="collapse">
+            365.2422
+        </div>
+        
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    </body>
+
+</html>
